@@ -43,7 +43,7 @@ nav li a{
     font-size: 4rem;
     text-align: center;
     margin-top: 150px; 
-    width: 862px;
+    max-width: 862px;
     margin: 0 auto; 
     font-weight: 700;
 }
@@ -51,7 +51,7 @@ nav li a{
 .about-para{
     color: #727272;
     text-align: center;
-    width: 862px;
+    max-width: 862px;
     font-weight: 400;
     margin: 0 auto;
     margin-top: 30px;
@@ -79,4 +79,22 @@ nav li a{
 
 .banner img{
     width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }    
+    nav{
+        flex-direction: column;     
+    }
 }
