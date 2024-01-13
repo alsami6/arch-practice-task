@@ -87,6 +87,8 @@ nav li a{
     }
     nav{
         flex-direction: column;
+        margin-bottom: 40px;
+        gap: 15px;
 }
 }
 
@@ -95,6 +97,55 @@ nav li a{
         padding: 50px;
     }    
     nav{
-        flex-direction: column;     
+        flex-direction: column;
+        margin-bottom: 50px;     
+        gap: 20px;
+        text-align: center;
     }
+
+    nav li{
+        margin: 0px auto;
+    }
+}
+
+.main-section{
+    padding: 0px 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.team-title{
+    margin-left: 76px;
+    margin-top: 100px;
+}
+
+.team-heading .quick-list{
+    color: #727272;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.team-heading .of-our{
+    color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.team-heading .features-span{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.team-para{
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+    max-width: 537px;
+    margin-top: 24px;
 }
